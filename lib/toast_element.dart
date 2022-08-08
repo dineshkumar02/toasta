@@ -258,6 +258,7 @@ class _ToastElementState extends State<ToastElement>
               blankSpace: 32,
               fadingEdgeStartFraction: 0.05,
               fadingEdgeEndFraction: 0.05,
+              velocity: 10.0,
               style: const TextStyle(
                   color: Colors.black, fontWeight: FontWeight.w500),
               text: widget.element.title ?? '',
